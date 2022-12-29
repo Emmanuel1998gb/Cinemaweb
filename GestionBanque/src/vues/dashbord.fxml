@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="575.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleurs.ControleurDashbord">
+   <children>
+      <BorderPane layoutX="-3.0" layoutY="-3.0" prefHeight="575.0" prefWidth="712.0">
+         <top>
+            <HBox alignment="CENTER_LEFT" prefHeight="75.0" prefWidth="712.0" style="-fx-background-color: #191919;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fill="#fff9f9" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Account Management System" textAlignment="CENTER" wrappingWidth="679.13671875">
+                     <font>
+                        <Font name="Cambria Math" size="40.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </top>
+         <left>
+            <VBox prefHeight="475.0" prefWidth="171.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="485.0" prefWidth="171.0" style="-fx-background-color: blue;">
+                     <children>
+                        <Button fx:id="idretirer" layoutX="28.0" layoutY="116.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" style="-fx-font-weight: bold; -fx-font-family: cambria; -fx-font-size: 18; -fx-background-radius: 7;" text="Retirer" underline="true">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="idemprunt" layoutX="28.0" layoutY="243.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" style="-fx-font-weight: bold; -fx-font-family: cambria; -fx-font-size: 18; -fx-background-radius: 7;" text="Emprunt" underline="true">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="idexit" layoutX="25.0" layoutY="396.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" style="-fx-font-weight: bold; -fx-font-family: cambria; -fx-font-size: 18; -fx-background-radius: 7;" text="Exit" underline="true">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="iddeposer" layoutX="28.0" layoutY="38.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" style="-fx-font-weight: bold; -fx-font-family: cambria; -fx-font-size: 18; -fx-background-radius: 7;" text="Deposer" underline="true">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="idvirement" layoutX="28.0" layoutY="176.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" style="-fx-font-weight: bold; -fx-font-family: cambria; -fx-font-size: 18; -fx-background-radius: 7;" text="Virement" underline="true">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="idconsult" layoutX="28.0" layoutY="308.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" style="-fx-font-weight: bold; -fx-font-family: cambria; -fx-font-size: 18; -fx-background-radius: 7;" text="ConSolde" underline="true">
+                           <font>
+                              <Font name="Cambria Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="S_RESIZE" />
+                     </cursor>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox layoutX="5.0" layoutY="6.0" prefHeight="490.0" prefWidth="531.0">
+                     <children>
+                        <AnchorPane prefHeight="491.0" prefWidth="531.0" style="-fx-background-color: teal;">
+                           <children>
+                              <Text fill="#f2f0f0" fontSmoothingType="LCD" layoutX="32.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenue  sur notre Dashbord de l'application de gestion Bancaire " textAlignment="CENTER" wrappingWidth="451.13671875">
+                                 <font>
+                                    <Font name="Cambria Bold" size="28.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#f2f0f0" fontSmoothingType="LCD" layoutX="34.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Etre une banque solide et innovante, fournissant un service de qualite inegale, agile et avec une forte rentabilite" textAlignment="CENTER" wrappingWidth="446.13671875">
+                                 <font>
+                                    <Font name="Cambria Bold" size="28.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#f2f0f0" fontSmoothingType="LCD" layoutX="34.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time is Money" textAlignment="CENTER" wrappingWidth="446.13671875">
+                                 <font>
+                                    <Font name="Cambria Bold" size="28.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
